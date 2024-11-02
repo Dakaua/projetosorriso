@@ -1,0 +1,89 @@
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: rgb(149, 212, 193);
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    width: 100%;
+}
+
+body {
+    margin-top: 150px;
+    background-color: rgb(170, 177, 175);
+}
+
+#imgSevico {
+    width: 200px;
+    border-radius: 10%;
+}
+
+#imgDepoimentos {
+    width: 200px;
+    border-radius: 10%;
+}
+
+
+#depoimentos {
+    display: flex;
+    justify-content: center;
+}
+
+#servicos {
+    display: flex;
+    justify-content: center;
+}
+
+#contatos {
+    display: flex;
+    justify-content: center;
+}
+
+#imgCont {
+    margin: 10px;
+}
+
+#sorrisoPerfeitoLogo {
+    width: 100px;
+    height: 100px;
+}
+
+#depoimento {
+    margin: 50px;
+}
+
+#depoimento p {
+    width: 200px;
+    text-align: center;
+}
+
+.servico {
+    margin: 50px;
+}
+
+.servico p {
+    width: 200px;
+    text-align: center;
+}
+
+
+#navegacao {
+    justify-content: center;
+}
+
+.ancora {
+    margin: 5px;
+    scroll-behavior: smooth;
+    color: rgb(90, 114, 109);
+    text-decoration: none;
+}
+
+@media (max-widht:600) {
+    #depoimentos {
+        margin-left: 10px;
+    }
+}
